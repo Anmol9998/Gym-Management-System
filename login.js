@@ -32,7 +32,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
             document.getElementById('loginMessage').innerText = "Login successful!";
             console.log("User signed in:", userCredential.user);
             // Redirect to the admin page
-            window.location.href = "addmin_page.html";
+            window.location.href = "admin_page.html";
         })
         .catch((error) => {
             // Handle errors here
